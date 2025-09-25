@@ -1,174 +1,97 @@
-# just-the-docs-template
+# Protecció de Dades - Centres Educatius GVA
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+Guia administrativa completa per a centres educatius de la Generalitat Valenciana, centrada en la protecció de dades i procediments administratius.
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+## Contingut del lloc
 
-More specifically, the created site:
+Aquest lloc web proporciona informació detallada sobre:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+### 🏛️ Òrgans de Govern i Coordinació
+- Jerarquia normativa i fonaments jurídics
+- Òrgans unipersonals i col·legiats
+- COCOPE, Departaments Didàctics i Equips d'Avaluació
+- Funcionament segons la Llei 40/2015 LRJSP i el ROF
 
-To get started with creating a site, simply:
+### 🎓 Consell Escolar
+- Composició i competències
+- Règim de funcionament i convocatòries
+- Actes i llibre de registre
+- Comissions obligatòries
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+### 👨‍🏫 Claustre de Professors
+- Membres i funcions
+- Competències pedagògiques i organitzatives
+- Procediment de votacions i abstenció
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+### 📊 Reclamació de Qualificacions
+- Procediment segons l'Ordre 32/2011
+- Òrgans instructors i resolució
+- Recurs d'alçada i drets del professorat
+- Conservació de documents d'avaluació
 
-After completing the creation of your new site on GitHub, update it as needed:
+### 🔒 Pla de Protecció de Dades
+- Resolució 28/06/2018 de la GVA
+- Tractament d'imatges i qualificacions
+- Registre d'Activitats de Tractament (RAT)
+- Models de consentiment i cartells informatius
 
-## Replace the content of the template pages
+## Base normativa
 
-Update the following files to your own content:
+- **LRJSP (Llei 40/2015)**: Règim jurídic del sector públic
+- **ROF**: Reglament d'Organització i Funcionament dels centres
+- **ORDRE 32/2011**: Procediment de reclamació de qualificacions
+- **Resolució 28/06/2018**: Protecció de dades en centres educatius GVA
+- **RGPD**: Reglament General de Protecció de Dades (UE) 2016/679
+- **LOPDGDD**: Llei Orgànica 3/2018 de Protecció de Dades
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+## Característiques tècniques
 
-## Changing the version of the theme and/or Jekyll
+- 🌐 **Tecnologia**: Jekyll amb tema Just the Docs
+- 📱 **Responsiu**: Optimitzat per a dispositius mòbils
+- 🔗 **Navegació**: Cross-references entre pàgines
+- 🔍 **Cerca**: Funcionalitat de cerca integrada
+- ♿ **Accessibilitat**: Compleix estàndards d'accessibilitat web
 
-Simply edit the relevant line(s) in the `Gemfile`.
+## Desenvolupament local
 
-## Adding a plugin
+Per executar el lloc localment:
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+```bash
+# Instal·lar dependències
+bundle install
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+# Executar el servidor local
+bundle exec jekyll serve
 
-- Add the following to your site's `Gemfile`:
+# Obrir http://localhost:4000 al navegador
+```
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+## Desplegament
 
-- And add the following to your site's `_config.yml`:
+El lloc es desplega automàticament a GitHub Pages mitjançant GitHub Actions quan es fan canvis a la branca `main`.
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+URL del lloc: [https://lawer.github.io/proteccio_dades](https://lawer.github.io/proteccio_dades)
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+## Contribucions
 
-## Publishing your site on GitHub Pages
+Aquest contingut està basat en:
+- Sessions de formació "Gestió Eficient de la Secretaria"
+- Normativa vigent de la Generalitat Valenciana
+- Pla de Protecció de Dades elaborat per José Miguel Coves Villaplana (Mentoría Digital d'Elda, 2024)
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+## Actualitzacions
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+**Última revisió**: Setembre 2024
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+La guia s'actualitza regularment conforme a la legislació vigent i les instruccions de la Conselleria d'Educació de la Generalitat Valenciana.
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+## Enllaços útils
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+- [AEPD - Guia Centres Educatius](https://www.aepd.es/guias/guia-centros-educativos.pdf)
+- [GVA - Protecció de Dades](https://presidencia.gva.es/es/web/delegacion-de-proteccion-de-datos-gva/inici)
+- [Conselleria - Normativa](https://ceice.gva.es/es/web/inspeccion-educativa/normativa-proteccio-de-dades-de-caracter-personal)
+- [DOGV](https://dogv.gva.es/es/)
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+## Llicència
 
-## Building and previewing your site locally
-
-Assuming [Jekyll] and [Bundler] are installed on your computer:
-
-1.  Change your working directory to the root directory of your site.
-
-2.  Run `bundle install`.
-
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
-
-    The built site is stored in the directory `_site`.
-
-## Publishing your built site on a different platform
-
-Just upload all the files in the directory `_site`.
-
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs/_site/
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+Aquest projecte està sota llicència MIT. Veure [LICENSE](LICENSE) per a més detalls.
