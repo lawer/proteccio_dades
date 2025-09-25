@@ -48,4 +48,4 @@ Utilitza el menú lateral per explorar les diferents seccions. Cada pàgina incl
 
 > **Última revisió**: Setembre 2024  
 > **Fonts**: Normativa GVA vigent i sessions de formació "Gestió Eficient de la Secretaria"  
-> **Centre**: IES Benigasló - Benigànim (la Vall d'Albaida)
+> **Centre**: IES Benigasló - la Vall d'Uixó (Castelló)

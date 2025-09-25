@@ -4,7 +4,7 @@ Guia administrativa de l'Institut d'Educació Secundària Benigasló, centrada e
 
 ## Sobre l'IES Benigasló
 
-L'Institut d'Educació Secundària Benigasló és un centre educatiu públic ubicat a Benigànim, a la comarca de la Vall d'Albaida. Aquesta web serveix com a guia interna per al personal del centre sobre procediments administratius i protecció de dades.
+L'Institut d'Educació Secundària Benigasló és un centre educatiu públic ubicat a la Vall d'Uixó, a la província de Castelló. Aquesta web serveix com a guia interna per al personal del centre sobre procediments administratius i protecció de dades.
 
 ## Contingut del lloc
 
