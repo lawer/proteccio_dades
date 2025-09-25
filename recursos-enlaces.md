@@ -1,9 +1,9 @@
 ---
-title: Pla de Protecció de Dades
 layout: default
 nav_order: 6
 title: "Pla de Protecció de Dades de l'IES Benigasló"
 permalink: /proteccio-de-dades/
+has_children: true
 centre_nom: "IES Benigasló"
 centre_codi: "12005751"
 centre_titularitat: "Públic"
@@ -126,12 +126,12 @@ Conselleria d’Educació, Cultura i Esport. Representada per la Directora del c
 
 Tercers que tracten dades per compte del centre. Vegeu quadre següent:
 
+{% capture tercers_table %}
 | Encarregat | Servei | Base jurídica | Contacte |
 | ---------- | ------ | ------------- | -------- |
-
-{% for t in page.tercers_encarregats %}
-| {{ t.nom }} | {{ t.servei }} | {{ t.base_juridica }} | {{ t.contacte }} |
-{% endfor %}
+{% for t in page.tercers_encarregats %}| {{ t.nom }} | {{ t.servei }} | {{ t.base_juridica }} | {{ t.contacte }} |
+{% endfor %}{% endcapture %}
+{{ tercers_table }}
 
 ### 2.5 Drets de les persones interessades
 
@@ -142,11 +142,12 @@ Sol·licituds per registre d’entrada a Secretaria ({{ page.email_secretaria }}
 
 Convocada per Direcció. Funcions: sensibilització, manteniment del pla, gestió RAT, anàlisi de brexes.
 
+{% capture comissio_table %}
 | Càrrec | Nom |
 | ------ | --- |
-{% for m in page.comissio_pd %}
-| {{ m.carrec }} | {{ m.nom }} |
-{% endfor %}
+{% for m in page.comissio_pd %}| {{ m.carrec }} | {{ m.nom }} |
+{% endfor %}{% endcapture %}
+{{ comissio_table }}
 
 ## 3. Registre d’Activitats de Tractament (RAT)
 
@@ -162,20 +163,24 @@ Convocada per Direcció. Funcions: sensibilització, manteniment del pla, gesti�
 
 {% if page.departaments.te_registre %}
 **Departaments:**  
+
+{% capture departaments_table %}
 | Departament | Tipus | Ubicació | Seguretat |
-|---|---|---|---|
-{% for r in page.departaments.registres %}
-| {{ r.departament }} | {{ r.tipus }} | {{ r.ubicacio }} | {{ r.seguretat }} |
-{% endfor %}
+| ----------- | ----- | -------- | --------- |
+{% for r in page.departaments.registres %}| {{ r.departament }} | {{ r.tipus }} | {{ r.ubicacio }} | {{ r.seguretat }} |
+{% endfor %}{% endcapture %}
+{{ departaments_table }}
 {% endif %}
 
 {% if page.aules_tallers.te_registre %}
 **Aules/Tallers:**  
+
+{% capture aules_table %}
 | Espai | Tipus | Ubicació | Seguretat |
-|---|---|---|---|
-{% for e in page.aules_tallers.excepcions %}
-| {{ e.espai }} | {{ e.tipus }} | {{ e.ubicacio }} | {{ e.seguretat }} |
-{% endfor %}
+| ----- | ----- | -------- | --------- |
+{% for e in page.aules_tallers.excepcions %}| {{ e.espai }} | {{ e.tipus }} | {{ e.ubicacio }} | {{ e.seguretat }} |
+{% endfor %}{% endcapture %}
+{{ aules_table }}
 {% endif %}
 
 ### 4.2 Tècnica i organitzativa
@@ -190,6 +195,16 @@ Convocada per Direcció. Funcions: sensibilització, manteniment del pla, gesti�
 - Comissió convocada en < {{ page.convocatoria_brexes_hores }} h.
 - Notificació a dpd@gva.es i a persones afectades via: {{ page.avis_afectats_canals | join: ", " }}
 
+## Annexos
+
+Pots consultar i descarregar els models oficials en els següents annexos:
+
+- [Annex 1 – Sol·licitud de modificació de dades personals](/proteccio-de-dades/annex-1/)
+- [Annex 2 – Sol·licitud de registre d’activitat de tractament (RAT)](/proteccio-de-dades/annex-2/)
+- [Annex 3 – Consentiment per a ús d’imatges](/proteccio-de-dades/annex-3/)
+- [Annex 4 – Registre de custòdia i accés a expedients](/proteccio-de-dades/annex-4/)
+- [Annex 5 – Notificació de brexa de seguretat](/proteccio-de-dades/annex-5/)
+  
 ---
 
 _{{ page.license_notice }}_
@@ -216,3 +231,4 @@ _Basat en la Resolució de 28 de juny de 2018 de la Generalitat Valenciana i el 
 - **[Consell Escolar](derechos-responsabilidades.html)**: Tractament de dades en òrgans col·legiats
 - **[Claustre de Professors](seguridad-digital.html)**: Confidencialitat i deure de secret del professorat
 - **[Reclamació de Qualificacions](politicas-instituto.html)**: Protecció de dades en procediments d'avaluació
+

@@ -4,6 +4,9 @@ theme: just-the-docs
 
 url: https://lawer.github.io/proteccio_dades
 
+# Logo 
+logo: "/assets/images/logo-benigaslo.svg"
+
 aux_links:
   "AEPD - Guies Educació": https://www.aepd.es/guias/guia-centros-educativos.pdf
   "GVA - Protecció Dades": https://presidencia.gva.es/es/web/delegacion-de-proteccion-de-datos-gva/inici

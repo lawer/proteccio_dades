@@ -1,9 +1,14 @@
 ---
 title: Inici
 layout: home
+nav_order: 1
 ---
 
 # Protecció de Dades a l'IES Benigasló
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="{{ '/assets/images/logo-benigaslo.svg' | relative_url }}" alt="Logo IES Benigasló" style="max-width: 300px; height: auto;">
+</div>
 
 Benvingut/da a la guia de protecció de dades de l'Institut d'Educació Secundària Benigasló, basada en la normativa vigent de la Generalitat Valenciana i les millors pràctiques administratives del nostre centre.
 
