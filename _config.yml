@@ -1,6 +1,7 @@
 title: Protecció de Dades - IES Benigasló
 description: Guia de protecció de dades i procediments administratius per a l'IES Benigasló
 theme: just-the-docs
+color_scheme: benigaslo
 
 url: https://lawer.github.io/proteccio_dades
 
@@ -9,7 +10,7 @@ logo: "/assets/images/logo-benigaslo.svg"
 
 aux_links:
   "AEPD - Guies Educació": https://www.aepd.es/guias/guia-centros-educativos.pdf
-  "GVA - Protecció Dades": https://presidencia.gva.es/es/web/delegacion-de-proteccion-de-datos-gva/inici
-  "Conselleria - Normativa Centres": https://ceice.gva.es/es/web/inspeccion-educativa/normativa-proteccio-de-dades-de-caracter-personal
-  "DOGV - Búsqueda Normativa": https://dogv.gva.es/es/
-  "ROF Centres Educatius": https://ceice.gva.es/es/web/centros-docentes/rof
+  "GVA - Protecció Dades": https://presidencia.gva.es/va/web/delegacion-de-proteccion-de-datos-gva/inici
+  "Conselleria - Normativa Centres": https://ceice.gva.es/va/web/inspeccion-educativa/normativa-proteccio-de-dades-de-caracter-personal
+  "DOGV - Búsqueda Normativa": https://dogv.gva.es/va/
+  "ROF Centres Educatius": https://ceice.gva.es/va/web/centros-docentes/rof
