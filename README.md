@@ -1,10 +1,14 @@
-# Protecció de Dades - Centres Educatius GVA
+# Protecció de Dades - IES Benigasló
 
-Guia administrativa completa per a centres educatius de la Generalitat Valenciana, centrada en la protecció de dades i procediments administratius.
+Guia administrativa de l'Institut d'Educació Secundària Benigasló, centrada en la protecció de dades i procediments administratius específics del nostre centre educatiu.
+
+## Sobre l'IES Benigasló
+
+L'Institut d'Educació Secundària Benigasló és un centre educatiu públic ubicat a Benigànim, a la comarca de la Vall d'Albaida. Aquesta web serveix com a guia interna per al personal del centre sobre procediments administratius i protecció de dades.
 
 ## Contingut del lloc
 
-Aquest lloc web proporciona informació detallada sobre:
+Aquest lloc web proporciona informació detallada sobre els procediments administratius específics de l'IES Benigasló:
 
 ### 🏛️ Òrgans de Govern i Coordinació
 - Jerarquia normativa i fonaments jurídics
@@ -83,7 +87,7 @@ Aquest contingut està basat en:
 
 **Última revisió**: Setembre 2024
 
-La guia s'actualitza regularment conforme a la legislació vigent i les instruccions de la Conselleria d'Educació de la Generalitat Valenciana.
+La guia s'actualitza regularment conforme a la legislació vigent i s'adapta a les necessitats específiques de l'IES Benigasló.
 
 ## Enllaços útils
 

@@ -4,7 +4,7 @@ layout: default
 nav_order: 6
 ---
 
-# Pla de Protecció de Dades d'un Centre Educatiu
+# Pla de Protecció de Dades de l'IES Benigasló
 
 ## Base normativa principal
 

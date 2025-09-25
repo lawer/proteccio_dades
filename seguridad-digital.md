@@ -4,7 +4,7 @@ layout: default
 nav_order: 4
 ---
 
-# El Claustre de Professors
+# El Claustre de Professors de l'IES Benigasló
 
 ## Base normativa
 

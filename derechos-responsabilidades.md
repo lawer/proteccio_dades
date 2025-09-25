@@ -4,7 +4,7 @@ layout: default
 nav_order: 3
 ---
 
-# El Consell Escolar
+# El Consell Escolar de l'IES Benigasló
 
 ## Base normativa
 
