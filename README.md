@@ -85,7 +85,7 @@ Aquest contingut està basat en:
 
 ## Actualitzacions
 
-**Última revisió**: Setembre 2024
+**Última revisió**: Setembre 2025
 
 La guia s'actualitza regularment conforme a la legislació vigent i s'adapta a les necessitats específiques de l'IES Benigasló.
 

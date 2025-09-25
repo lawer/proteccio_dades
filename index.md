@@ -46,6 +46,6 @@ Utilitza el menú lateral per explorar les diferents seccions. Cada pàgina incl
 
 *Aquesta guia s'actualitza regularment conforme a la legislació vigent i les instruccions de la Conselleria d'Educació aplicades a l'IES Benigasló.*
 
-> **Última revisió**: Setembre 2024  
+> **Última revisió**: Setembre 2025  
 > **Fonts**: Normativa GVA vigent i sessions de formació "Gestió Eficient de la Secretaria"  
 > **Centre**: IES Benigasló - la Vall d'Uixó (Castelló)
