@@ -1,8 +1,12 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Protecció de Dades - Centres Educatius GVA
+description: Guia de protecció de dades i procediments administratius per a centres educatius de la Generalitat Valenciana
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://centres-educatius-gva.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "AEPD - Guies Educació": https://www.aepd.es/guias/guia-centros-educativos.pdf
+  "GVA - Protecció Dades": https://presidencia.gva.es/es/web/delegacion-de-proteccion-de-datos-gva/inici
+  "Conselleria - Normativa Centres": https://ceice.gva.es/es/web/inspeccion-educativa/normativa-proteccio-de-dades-de-caracter-personal
+  "DOGV - Búsqueda Normativa": https://dogv.gva.es/es/
+  "ROF Centres Educatius": https://ceice.gva.es/es/web/centros-docentes/rof
