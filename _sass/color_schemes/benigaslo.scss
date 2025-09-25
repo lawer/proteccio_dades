@@ -17,7 +17,7 @@ $search-result-preview-color: #505050 !default;
 
 // Colors d'enllaç i botons
 // Neutre fosc consistent; vermell només per focus/estat puntual
-$link-color: #222222 !default;               // negre suau per accessibilitat
+$link-color: $brand-black !default;               // enllaços negres corporatius
 $btn-primary-color: #222222 !default;        // coherent amb enllaços
 $feedback-color: #c00000 !default;           // avisos / errors (vermell discret)
 
@@ -55,10 +55,10 @@ $accent-color: #060505 !default;             // negre del logo com a accent prin
 .highlight-box strong { color: $brand-black; }
 
 // Estil enllaços
-a { text-decoration: none; color: $link-color; }
-a:visited { color: #222222; }
-a:hover, a:focus { color: #060505; text-decoration: underline; }
-a:active { color: #060505; }
+a { text-decoration: none; color: $brand-black; }
+a:visited { color: $brand-black; }
+a:hover, a:focus { color: #000000; text-decoration: underline; }
+a:active { color: #000000; }
 
 // Navegació lateral: línia activa vermella
 .nav-list .nav-list-item .nav-list-link {
