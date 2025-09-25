@@ -92,73 +92,6 @@ formacio:
 license_notice: "Basat en Protocolo de protección de datos genérico © 2024 Mentoría Digital Elda, CC BY-NC-SA 4.0"
 ---
 
-# Pla de Protecció de Dades
-
-## Base normativa principal
-
-### Resolució de 28 de juny de 2018
-
-**Instruccions per al compliment de la normativa de protecció de dades en els centres educatius públics de titularitat de la Generalitat**
-
-**Annex I**: Manual informatiu en matèria de protecció de dades per als centres educatius públics de titularitat de la Generalitat.
-
-## Deure de secret (punt 2.5)
-
-> **Totes les persones del centre que tinguen accés a dades de caràcter personal estan obligades a guardar secret sobre les mateixes.**
-
-### Exemples de dades confidencials:
-
-- **Dades personals** del nostre alumnat
-- **Circumstàncies familiars** explicades per tutors legals
-- **Circumstàncies personals** explicades en sessions d'avaluació o entrevistes amb tutoria/departament d'orientació
-- Qualsevol altra informació de caràcter personal
-
-## Qualificacions (punt 3.4)
-
-### 3.4.1 Publicació de qualificacions escolars
-
-- Les qualificacions s'han de facilitar al **propi alumnat i les seues famílies**
-- En plataformes educatives: **només accessibles** per a l'alumnat, famílies o tutors
-- **No poden accedir-hi persones distintes**
-- **Excepció**: És possible comunicar la situació de l'alumnat en l'entorn de la seua classe (p. ex., mostrant la qualificació front a la mitjana dels companys)
-
-### 3.4.2 Comunicació oral de qualificacions
-
-- **Preferible**: Notificar de la forma indicada en el punt anterior
-- **Possible**: Enunciar-les oralment, evitant comentaris addicionals que pugueren afectar personalment l'alumne
-
-## Tractament d'imatges de l'alumnat (punt 4)
-
-### Amb finalitat educativa
-
-**Legitimació automàtica** (sense necessitat de consentiment):
-
-- Treballs escolars
-- Avaluacions
-- El centre o Conselleria competent està legitmat per al tractament
-
-### Amb altres finalitats
-
-**Requereix consentiment explícit**:
-
-- Imatges d'esdeveniments per a difusió
-- Revista escolar
-- Web del centre
-- **Cal informar prèviament** sobre la finalitat de la gravació
-- Especialment si les imatges seran accessibles de manera indiscriminada o limitada a la comunitat escolar
-
-## Altres aspectes destacables
-
-La Resolució també regula:
-
-- **3.5** Accés a la informació de l'alumnat
-- **3.6** Comunicacions de dades d'alumnat
-- **5** Tractament de dades en Internet
-- **6** Certificats del Registre central de delinqüents sexuals
-- **7** Videovigilància
-- **8** Tractament de dades per les AMPA
-- **9** Drets en matèria de protecció de dades
-
 # Pla de Protecció de Dades de l'{{ page.centre_nom }}
 
 > **Àmbit i revisió.** Aquest pla s’aplica a tots els processos amb dades personals gestionats pel centre.
@@ -211,7 +144,6 @@ Convocada per Direcció. Funcions: sensibilització, manteniment del pla, gesti�
 
 | Càrrec | Nom |
 | ------ | --- |
-
 {% for m in page.comissio_pd %}
 | {{ m.carrec }} | {{ m.nom }} |
 {% endfor %}
