@@ -129,6 +129,11 @@ html { scroll-behavior: smooth; }
   body header.site-header a { color: #dcdcdc !important; }
   body header.site-header a:visited { color: #dcdcdc !important; }
   body header.site-header a:hover { color: #ffffff !important; }
+  /* Barra de navegació superior (aux_links) */
+  body .site-nav { background: #121416 !important; border-bottom: 1px solid #2a2f33 !important; }
+  body .site-nav a { color: #dcdcdc !important; }
+  body .site-nav a:visited { color: #dcdcdc !important; }
+  body .site-nav a:hover { color: #ffffff !important; }
   body .main-content { background: #121416; }
 
   /* Enllaços sense blau i amb affordance clara */
