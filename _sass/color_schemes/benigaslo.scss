@@ -123,6 +123,12 @@ html { scroll-behavior: smooth; }
   /* Sidebar i capçalera amb més especificitat perquè predominen sobre el tema */
   body .side-bar { background: #181c1f !important; border-right: 1px solid #2a2f33 !important; }
   body .site-header, body .site-footer { background: #121416; border-color: #2a2f33; }
+  /* Forcem el fons del header en cas que el tema el reescriga */
+  body header.site-header { background: #121416 !important; border-bottom: 1px solid #2a2f33 !important; }
+  body header.site-header .site-title { color: #f0f0f0 !important; }
+  body header.site-header a { color: #dcdcdc !important; }
+  body header.site-header a:visited { color: #dcdcdc !important; }
+  body header.site-header a:hover { color: #ffffff !important; }
   body .main-content { background: #121416; }
 
   /* Enllaços sense blau i amb affordance clara */
